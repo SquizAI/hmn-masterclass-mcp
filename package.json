@@ -1,0 +1,13 @@
+{
+  "name": "hmn-masterclass-mcp",
+  "version": "1.0.0",
+  "description": "HMN Masterclass MCP Server — adaptive learning for AI upskilling",
+  "bin": { "hmn-masterclass": "./bin/hmn-masterclass.js" },
+  "main": "src/server.js",
+  "scripts": { "start": "node bin/hmn-masterclass.js" },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.20.2",
+    "zod": "^3.25.76",
+    "axios": "^1.12.0"
+  }
+}
